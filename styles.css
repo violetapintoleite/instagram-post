@@ -1,7 +1,28 @@
+body{
+    background-color: rgb(202, 199, 199);
+    margin: 0;
+}
+
 .header{
 background-color: white;
+
+}
+
+.header h1{
+ margin: 0;
+ text-align: center;
 }
 
 .page{
-    background-color: grey;
+width: 600px;
+margin: auto;
 }
+
+.post{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
