@@ -3,14 +3,19 @@ body{
     margin: 0;
 }
 
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
 .header{
 background-color: white;
+padding: 10px;
 
 }
 
 .header h1{
  margin: 0;
- text-align: center;
 }
 
 .page{
@@ -20,9 +25,29 @@ margin: auto;
 
 .post{
     background-color: white;
+    margin-top: 10px;
+}
+
+.post-header h2:first-child{
+    display: inline-block;
+    width:80% ;
+}
+
+.post-header div:last-child{
+    display: inline-block;
+    width: 16%;
+    text-align: right;
+    color: grey;
+}
+
+.post h2, .post p{
+    padding: 10px;
+    margin: 0;
 }
 
 img{
     width: 100%;
 }
+
+
 
